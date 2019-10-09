@@ -1,9 +1,5 @@
 import * as inputs from './lib/inputs';
 import * as language from './lib/language';
+import * as selections from './lib/selections';
 
-const tools = {
-	inputs: inputs,
-	language: language
-};
-
-export default tools;
+export { inputs, language, selections };

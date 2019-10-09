@@ -1,4 +1,7 @@
 # Logs
+
+.DS_Store
+pnpm-lock.yaml
 logs
 *.log
 npm-debug.log*

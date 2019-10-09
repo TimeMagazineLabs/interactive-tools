@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/TimeMagazineLabs/interactive-tools/issues"
   },
-  "homepage": "https://github.com/TimeMagazineLabs/interactive-tools#readme"
+  "homepage": "https://github.com/TimeMagazineLabs/interactive-tools#readme",
+  "dependencies": {
+    "styleselect": "^1.0.3"
+  }
 }
