@@ -67,7 +67,7 @@ select {
 		box-shadow: $ss-dropdown-shadow;
 		border: $ss-standard-border;
 		border-top: 0 none;
-		overflow-y: scroll;
+		overflow-y: auto;
 
 		.ss-option {
 			width: 100%;
