@@ -1,0 +1,39 @@
+.time-interactive {
+	.legend {
+		margin: 10px auto;
+		font-size: 14px;
+
+		.legend_head {
+			font-size: 16px;
+			padding-bottom: 4px;
+			min-height: 32px;
+
+			span {
+				// border-bottom: 2px solid darkgreen;
+				a {
+					color: darkgreen;
+					text-decoration: none;
+				}
+				a:visited {
+					color: darkgreen;
+					text-decoration: none;
+				}
+			}
+		}
+
+		.legend_item {
+			display: inline-block;
+			width: 100px;
+			padding-left: 5px;
+			text-align: left;
+			margin: 2px 0;
+		}
+	}
+
+	@media(max-width: 400px) {
+		.legend_item {
+			font-size: 11px;
+			width: 90px;			
+		}
+	}
+}
