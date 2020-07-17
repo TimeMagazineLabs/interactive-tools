@@ -1,33 +1,42 @@
 .time-interactive {
-	.legend {
-		margin: 10px auto;
+	.dashboard_legend {
+		text-align: center;		
 		font-size: 14px;
+		padding: 4px 0;
 
-		.legend_head {
-			font-size: 16px;
-			padding-bottom: 4px;
-			min-height: 32px;
+		.dashboard_legend_item {
+			display: inline-block;
+			padding: 0 12px 0 3px;
+			vertical-align: top;
+			line-height: 20px;
 
-			span {
-				a {
-					color: darkgreen;
-					text-decoration: none;
-				}
-				a:visited {
-					color: darkgreen;
-					text-decoration: none;
-				}
+			> div {
+				display: inline-block;
+				vertical-align: top;
 			}
 		}
 
-		.legend_item {
-			display: inline-block;
-			width: 100px;
-			padding-left: 5px;
-			text-align: left;
-			margin: 2px 0;
+		.dashboard_legend_text {
+			line-height: 20px;
+			position: relative;
+		}
+
+		.dashboard_legend_icon {
+			display: inline-block;			
+			position: relative;
+			top: 0px;
+			height: 20px;
+			width: 20px;
+		}
+
+		.dashboard_legend_square {
+			height: 20px;
+			width: 20px;
+			position: relative;
+			margin-right: 3px;			
 		}
 	}
+
 
 	@media(max-width: 400px) {
 		.legend_item {

@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/TimeMagazineLabs/interactive-tools#readme",
   "dependencies": {
+    "d3-selection": "^1.4.1",
     "styleselect": "^1.0.3"
   }
 }
