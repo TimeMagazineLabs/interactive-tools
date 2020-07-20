@@ -4,6 +4,12 @@
 		font-size: 14px;
 		padding: 4px 0;
 
+		.dashboard_legend_group {
+			display: inline-block;
+			vertical-align: top;
+			margin-bottom: 3px;
+		}
+
 		.dashboard_legend_item {
 			display: inline-block;
 			padding: 0 12px 0 3px;
