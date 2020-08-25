@@ -1,6 +1,6 @@
 {
   "name": "interactive-tools",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A few convenience tools for interactives",
   "main": "index.js",
   "directories": {
