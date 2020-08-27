@@ -1,0 +1,30 @@
+{
+  "name": "interactive-tools",
+  "version": "0.0.2",
+  "description": "A few convenience tools for interactives",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TimeMagazineLabs/interactive-tools.git"
+  },
+  "keywords": [
+    "ui",
+    "interactives"
+  ],
+  "author": "Chris Wilson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TimeMagazineLabs/interactive-tools/issues"
+  },
+  "homepage": "https://github.com/TimeMagazineLabs/interactive-tools#readme",
+  "dependencies": {
+    "d3-selection": "^1.4.2",
+    "styleselect": "^1.0.3"
+  }
+}
