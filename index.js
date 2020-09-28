@@ -1,6 +1,4 @@
-import * as inputs from './lib/inputs';
-import * as language from './lib/language';
-import * as selections from './lib/selections';
-import * as legend from './lib/legend';
-
-export { inputs, language, selections, legend };
+export * as inputs from './lib/inputs';
+export * as language from './lib/language';
+export * as selections from './lib/selections';
+export * as legend from './lib/legend';
