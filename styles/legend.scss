@@ -16,7 +16,7 @@
 			vertical-align: top;
 			line-height: 20px;
 
-			> div {
+			div {
 				display: inline-block;
 				vertical-align: top;
 			}
@@ -42,7 +42,6 @@
 			margin-right: 3px;
 		}
 	}
-
 
 	@media(max-width: 400px) {
 		.legend_item {
