@@ -1,4 +1,36 @@
-.time-interactive {
+.interactive-tool {
+	/* INPUTS */
+	.buttonGroup {
+		text-align: center;
+		button {
+			display: inline-block;
+			outline: none;
+			font-size: 16px;
+			padding: 4px 5px 3px 5px;
+			background-color: white;
+			border-color: #606060;
+			border-style: solid;
+			border-width: 1px 1px 1px 0;
+			cursor: pointer;
+			width: 100px;			
+		}
+
+		button:first-child {
+			border-radius: 3px 0 0 3px;			
+			border-width: 1px;
+		}
+
+		button:last-child {
+			border-radius: 0 3px 3px 0;
+		}
+	}
+
+	button.active {
+		background-color: #FFFFCC;
+		font-weight: bold;
+	}
+
+	/* LEGEND */
 	.dashboard_legend {
 		text-align: center;		
 		font-size: 14px;
